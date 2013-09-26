@@ -1,55 +1,87 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-  "http://www.w3.org/TR/html4/loose.dtd">
+        "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Jasmine Spec Runner</title>
+    <title>Jasmine Spec Runner</title>
 
-  <link rel="shortcut icon" type="image/png" href="lib/jasmine-1.3.1/jasmine_favicon.png">
-  <link rel="stylesheet" type="text/css" href="lib/jasmine-1.3.1/jasmine.css">
-  <script type="text/javascript" src="lib/jasmine-1.3.1/jasmine.js"></script>
-  <script type="text/javascript" src="lib/jasmine-1.3.1/jasmine-html.js"></script>
+    <link rel="shortcut icon" type="image/png" href="lib/jasmine-1.3.1/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="lib/jasmine-1.3.1/jasmine.css">
+    <script type="text/javascript" src="lib/jasmine-1.3.1/jasmine.js"></script>
+    <script type="text/javascript" src="lib/jasmine-1.3.1/jasmine-html.js"></script>
 
-  <!-- include source files here... -->
-  <script type="text/javascript" src="src/Player.js"></script>
-  <script type="text/javascript" src="src/Song.js"></script>
-  <script type="text/javascript" src="src/GuessNumber.js"></script>
-  <script type="text/javascript" src="src/random_num.js"></script>
-  <!-- include spec files here... -->
-  <script type="text/javascript" src="spec/SpecHelper.js"></script>
-  <script type="text/javascript" src="spec/PlayerSpec.js"></script>
-  <script type="text/javascript" src="spec/random_numtest.js"></script>
+    <!-- include source files here... -->
+    <script type="text/javascript" src="src/Player.js"></script>
+    <script type="text/javascript" src="src/Song.js"></script>
+    <script type="text/javascript" src="src/random_num.js"></script>
+    <script type="text/javascript" src="src/compare.js"></script>
+    <!-- include spec files here... -->
+    <script type="text/javascript" src="spec/SpecHelper.js"></script>
+    <script type="text/javascript" src="spec/PlayerSpec.js"></script>
+    <script type="text/javascript" src="spec/comparetest.js"></script>
+    <script type="text/javascript" src="spec/random_numtest.js"></script>
 
-  <script type="text/javascript">
-    (function() {
-      var jasmineEnv = jasmine.getEnv();
-      jasmineEnv.updateInterval = 1000;
+    <script type="text/javascript">
+        (function () {
+            var jasmineEnv = jasmine.getEnv();
+            jasmineEnv.updateInterval = 1000;
 
-      var htmlReporter = new jasmine.HtmlReporter();
+            var htmlReporter = new jasmine.HtmlReporter();
 
-      jasmineEnv.addReporter(htmlReporter);
+            jasmineEnv.addReporter(htmlReporter);
 
-      jasmineEnv.specFilter = function(spec) {
-        return htmlReporter.specFilter(spec);
-      };
+            jasmineEnv.specFilter = function (spec) {
+                return htmlReporter.specFilter(spec);
+            };
 
-      var currentWindowOnload = window.onload;
+            var currentWindowOnload = window.onload;
 
-      window.onload = function() {
-        if (currentWindowOnload) {
-          currentWindowOnload();
-        }
-        execJasmine();
-      };
+            window.onload = function () {
+                if (currentWindowOnload) {
+                    currentWindowOnload();
+                }
+                execJasmine();
+            };
 
-      function execJasmine() {
-        jasmineEnv.execute();
-      }
+            function execJasmine() {
+                jasmineEnv.execute();
+            }
 
-    })();
-  </script>
+        })();
+    </script>
 
 </head>
 
 <body>
+
+
+<input type="button" value="点击产生一个随机四位" onClick="btn_click()">
+<span id="txt1" style="display: none">已经产生一个随机数！</span>
+
+请输入您猜测的四位数字:
+<input type="text" id="guess" name="firstname"/>
+<button onclick="btn_click_1()">确认</button>
+<span id="txt2">猜测结果:</span>
+<span id="txt3" style="display: none"/>
+<br/>
+
+
+<script type="text/javascript">
+
+    function btn_click() {
+        document.getElementById('txt1').style.display = 'inline';
+        var random_number = random_num();
+        localStorage.setItem("random_number", random_number);
+
+    }
+    function btn_click_1() {
+        var random_number = JSON.parse(localStorage.getItem("random_number"));
+        var array_random_num = compare(random_number, document.getElementById('guess').value);
+        var result = array_random_num[0] + "A" + array_random_num[1] + "B";
+        document.getElementById("txt3").innerText = result;
+        document.getElementById('txt3').style.display = 'inline';
+    }
+
+
+</script>
 </body>
 </html>

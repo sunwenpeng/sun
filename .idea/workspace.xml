@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914bf1be-1acd-43c4-ab10-dda41a7ff548" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/GuessNumberTest.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/guessNumber_test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compare.js" afterPath="$PROJECT_DIR$/src/compare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/comparetest.js" afterPath="$PROJECT_DIR$/spec/comparetest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/random_num.js" afterPath="$PROJECT_DIR$/src/random_num.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/random_numtest.js" afterPath="$PROJECT_DIR$/spec/random_numtest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jasmie.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380173975518" ignored="false" />
     <file path="/123text.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380006444101" ignored="false" />
     <file path="/123test.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380006319206" ignored="false" />
-    <file path="/SpecRunner.html" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380174124260" ignored="false" />
+    <file path="/SpecRunner.html" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380186962546" ignored="false" />
     <file path="/123.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380007562260" ignored="false" />
     <file path="/random_num.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380175940756" ignored="false" />
     <file path="/random_numtest.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380177383126" ignored="false" />
     <file path="/compare.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380091383182" ignored="false" />
-    <file path="/comparetest.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380094501948" ignored="false" />
+    <file path="/comparetest.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380185261116" ignored="false" />
     <file path="/GuessNumberTest.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380092655991" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine_init/src/random_num.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380093881915" ignored="false" />
     <file path="$PROJECT_DIR$/../jasmine_init/spec/random_num_spec.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380094153057" ignored="false" />
     <file path="/a.dummy" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380174889238" ignored="false" />
+    <file path="/guessNumber_test.js" changelist="914bf1be-1acd-43c4-ab10-dda41a7ff548" time="1380186817532" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +50,20 @@
       <file leaf-file-name="SpecRunner.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="2027" selection-end="2027" vertical-scroll-proportion="0.10909091">
+            <state line="19" column="68" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.53977275">
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +80,43 @@
       <file leaf-file-name="random_numtest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/random_numtest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="83" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+            <state line="33" column="71" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guessNumber_test.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/guessNumber_test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="2" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comparetest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/comparetest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="87" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compare.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compare.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="2" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuessNumber.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GuessNumber.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="155" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,6 +126,15 @@
         <entry file="file://$PROJECT_DIR$/spec/SpecHelper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/PlayerSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,16 +166,17 @@
         <option value="$PROJECT_DIR$/src/123.js" />
         <option value="$PROJECT_DIR$/spec/GuessNumberTest.js" />
         <option value="$PROJECT_DIR$/src/compare.js" />
-        <option value="$PROJECT_DIR$/spec/comparetest.js" />
         <option value="$PROJECT_DIR$/src/random_num.js" />
         <option value="$PROJECT_DIR$/spec/random_numtest.js" />
+        <option value="$PROJECT_DIR$/spec/comparetest.js" />
+        <option value="$PROJECT_DIR$/spec/guessNumber_test.js" />
         <option value="$PROJECT_DIR$/SpecRunner.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="6" />
+    <option name="x" value="24" />
+    <option name="y" value="35" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
@@ -299,8 +353,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="6" width="1346" height="728" extended-state="0" />
-    <editor active="false" />
+    <frame x="24" y="35" width="1346" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -382,20 +436,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/PlayerSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/comparetest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/compare.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="131" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
@@ -430,37 +470,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/PlayerSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/jasmine-1.3.1/jasmine-html.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="659" column="41" selection-start="20208" selection-end="20208" vertical-scroll-proportion="0.3313783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/comparetest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="28" selection-start="862" selection-end="862" vertical-scroll-proportion="0.3617021">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GuessNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="155" selection-end="189" vertical-scroll-proportion="0.27925533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="754" selection-end="754" vertical-scroll-proportion="0.32180852">
           <folding />
         </state>
       </provider>
@@ -479,16 +491,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuessNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="155" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="2" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/PlayerSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/random_numtest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="83" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+        <state line="33" column="71" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/comparetest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="87" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/guessNumber_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="2" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2027" selection-end="2027" vertical-scroll-proportion="0.10909091">
+        <state line="19" column="68" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.53977275">
           <folding>
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#body#0;n#html#0;n#!!top" expanded="true" />

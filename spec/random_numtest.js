@@ -1,5 +1,5 @@
 describe('random_num', function () {
-    it('four number or not', function () {
+    it('number has four numbers', function () {
         var result, random_number;
 
         random_number = random_num();
@@ -7,7 +7,7 @@ describe('random_num', function () {
 
         expect(result).toBeTruthy();
     });
-    it('random or not', function () {
+    it('number should be random', function () {
         var result;
         var j = 0;
         var a = random_num();
@@ -21,7 +21,7 @@ describe('random_num', function () {
         result = j<=10;
         expect(result).toBeTruthy();
     });
-    it('different number', function () {
+    it('it should be different number', function () {
             var result;
             var randomnumber=random_num();
             var a = randomnumber % 10;

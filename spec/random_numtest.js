@@ -15,9 +15,8 @@ describe('random_num', function () {
             if (a == random_num()) {
                 j++;
             }
-            ;
         }
-        ;
+
 
         result = j<=10;
         expect(result).toBeTruthy();

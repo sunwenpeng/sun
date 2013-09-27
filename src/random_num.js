@@ -11,6 +11,5 @@
             console.log(randomnum+"asf");
             return randomnum;
          }
-
     }
 };
